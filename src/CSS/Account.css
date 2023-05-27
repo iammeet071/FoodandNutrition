@@ -1,0 +1,76 @@
+.btn-cal{
+    background-color:red;
+    border: none;
+  }
+  .user-info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .user-info img{
+      width: 10em;
+      border-radius: 50%;
+  }
+  .btn-cal:hover{
+    background-color: seagreen;
+    border: none;
+  }
+  .card {
+  margin:30px auto;
+  border-radius: 5px;
+  padding: 15px;
+  }
+  .collection {
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  }
+  .total-calories {
+  color: darkgreen;
+  text-align: center;
+  }
+  .center-align{
+    color: gray;
+    width: 100%;
+    text-align: center;
+  }
+  #item-list li {
+  padding: 2%;
+  }
+  .user-info h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  .user-info p{
+    padding-left: 2em;
+    font-size: 2em;
+    font-weight:bold ;
+  }
+  .user-track{
+    text-align: center;
+    
+  }
+  .user-track h1{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+  }
+  .store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 2em;
+    font-size: 1rem;
+  }
+  .store button{
+    background-color:rgb(226, 26, 26);
+        border: none;
+        color: white;
+  }
+  .piechart{
+    display: flex;
+    flex-direction: column;
+  }

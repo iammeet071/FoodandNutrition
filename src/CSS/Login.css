@@ -1,0 +1,25 @@
+.cardContainer{
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.863),rgba(0, 0, 0, 0.349)),url("http://images.ctfassets.net/3s5io6mnxfqz/6ZImCEzx6UuvuKaAiZEDDN/50479ee4a0902deb4eb1bab720ce248a/image1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: rgba(255, 255, 255, 0.541);
+    width: 50em;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardContainer h2{
+    font-size: 3rem;
+    margin-bottom: 2em;
+}
+.cardContainer button{
+    transition: all 0.5s ease-in-out;
+    width: 15em;
+}
